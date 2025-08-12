@@ -10,9 +10,7 @@ def hello():
 def second():
     return "<h1>this is second route"
 
-@app.route("/second")
-def check():
-    return "<h1>Hii from github</h1>"
+
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
