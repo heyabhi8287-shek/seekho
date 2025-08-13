@@ -10,6 +10,10 @@ def hello():
 def second():
     return "<h1>this is second route"
 
+@app.route("/second")
+def second():
+    return "<h1>this is second route"
+
 
 
 if __name__ == "__main__":
