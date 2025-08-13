@@ -17,7 +17,7 @@ jobs:
       - name: Authenticate with WIF
         uses: google-github-actions/auth@v2
         with:
-          workload_identity_provider: "projects/183355380557/locations/global/workloadIdentityPools/github-pool/providers/github"
+          workload_identity_provider: "projects/183355380557/locations/global/workloadIdentityPools/github-pool/providers/github-provider"
           service_account: "github@project-seekho.iam.gserviceaccount.com"
 
       - name: Configure Docker
