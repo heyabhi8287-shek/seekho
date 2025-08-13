@@ -7,12 +7,12 @@ def hello():
     return "<h1>Hi abhishek this side</h1>"
 
 @app.route("/first")
-def second():
-    return "<h1>this is second route"
+def first():
+    return "<h1>this is first route</h1>"
 
 @app.route("/second")
 def second():
-    return "<h1>this is second route"
+    return "<h1>this is second route</h1>"
 
 
 
